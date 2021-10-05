@@ -1,6 +1,8 @@
 import React from 'react';
 import './homepage.styles.scss';
+import Directory from '../../components/directory/directory.component';
 
+/*
 const HomePage = () => (
      
     <div className='homepage'>
@@ -44,6 +46,15 @@ const HomePage = () => (
                 </div>
             </div>
         </div>
+    </div>
+    
+);
+*/
+
+const HomePage = () => (
+     
+    <div className='homepage'>
+        <Directory />
     </div>
     
 );
